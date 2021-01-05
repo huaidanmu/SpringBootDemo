@@ -1,0 +1,15 @@
+jasypt:
+  encryptor:
+    password: 123..123
+info:
+  username: ENC(SD3NVL6sDanKIXKQ1OYi1NcYXIFkcOJb)
+  password: ENC(mPNSUMtyDAjXt/w86+0EZy07ndF9EtzY)
+server:
+  port: 8080
+person:
+  name: 刘阿毛
+  sex: 女
+  hobby:
+    - 吃饭
+    - 睡觉
+    - 打豆豆
