@@ -1,0 +1,14 @@
+#spring:
+#  mvc:
+#    view:
+#      #文件位置 不能修改
+#      prefix: /templates/
+#      #文件后缀
+#      suffix: .ftl
+#spring:
+#  mvc:
+#    view:
+#      prefix: /templates/
+#      suffix: .ftl
+
+

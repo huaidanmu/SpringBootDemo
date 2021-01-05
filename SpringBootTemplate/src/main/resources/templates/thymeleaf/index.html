@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    现在时间:<p th:utext="${now}">now</p>
+    现在时间:<span th:text="${now}">now</span><br>
+    <!--<p>姓名:<span th:text="${person.name}">name</span></p>
+    <p>性别:<span th:text="${person.getSex()}">sex</span></p>-->
+    <div th:object="${person}">
+        <p>姓名:<span th:text="*{name}">name</span></p>
+        <p>性别:<span th:text="*{sex}">sex</span></p>
+    </div>
+    <!--<a th:href="@{welcome}">welcome</a>-->
+    <p>测试姓名:<span th:utext="#{name}">name</span></p>
+    <div th:insert="footer :: copy"></div>
+    <div th:replace="footer :: lam"></div>
+    <div th:include="footer :: lhz"></div>
+</body>
+</html>
