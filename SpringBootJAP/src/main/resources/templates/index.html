@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <h1>信息</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>用户名</td>
+                    <td>密码</td>
+                    <td>余额</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="atm:${atmList}">
+                    <td th:text="${atm.aname}">name</td>
+                    <td th:text="${atm.apassword}">password</td>
+                    <td th:text="${atm.amoney}">money</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
