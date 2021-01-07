@@ -1,0 +1,26 @@
+#spring:
+#  datasource:
+#    db1:
+#      jdbc-url: jdbc:mysql://localhost:3306/test?serverTimezone=CST
+#      username: root
+#      password: 123..123
+#    db2:
+#      jdbc-url: jdbc:mysql://localhost:3306/testmybatis?serverTimezone=CST
+#      username: root
+#      password: 123..123
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=CST
+    username: root
+    password: 123..123
+#    db1:
+#      jdbc-url: jdbc:mysql://localhost:3306/test?serverTimezone=CST
+#      username: root
+#      password: 123..123
+#mybatis:
+#  mapper文件位置
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#  映射的实体类位置
+#  type-aliases-package: com.slm.domain
+#  MyBatis配置文件位置
+#  config-location: classpath:Configuration.xml
